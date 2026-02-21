@@ -26,7 +26,11 @@ body {
 }
 
 .site-header {
-  background: linear-gradient(125deg, #0d2f56, #174a84);
+  background-image:
+    linear-gradient(125deg, rgba(13, 47, 86, 0.88), rgba(23, 74, 132, 0.86)),
+    url("https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1800&q=80");
+  background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 2rem 0 1rem;
 }
