@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWSA | Association of Washington State Azerbaijanis</title>
+    <meta
+      name="description"
+      content="Official page of AWSA (Association of Washington State Azerbaijanis): mission, vision, events, cultural activities, community news, donations, and contact."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-wrap">
+        <div>
+          <p class="eyebrow">Non-Profit Organization</p>
+          <h1>AWSA</h1>
+          <p class="tagline">Association of Washington State Azerbaijanis</p>
+        </div>
+        <div class="donate-wrap">
+          <a class="button donate" href="https://www.zeffy.com/en-US/donation-form/adc25e00-91bf-4a93-b7cb-a0a26a011471" target="_blank" rel="noopener noreferrer">Donate</a>
+          <p class="donate-note">Please support AWSA programs and community initiatives.</p>
+        </div>
+      </div>
+      <nav class="container nav" aria-label="Main navigation">
+        <a href="#about">About Us</a>
+        <a href="#events">Upcoming Events</a>
+        <a href="#activities">Cultural Activities</a>
+        <a href="#news">Community News</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section container">
+        <h2>About AWSA</h2>
+        <p>
+          AWSA brings together Azerbaijani families, students, professionals, and friends across Washington State.
+          We celebrate Azerbaijani heritage, build community connections, and support cultural understanding through
+          education and public events.
+        </p>
+      </section>
+
+      <section id="mission" class="section container card">
+        <h2>Our Mission</h2>
+        <p>
+          AWSA is dedicated to promoting and preserving Azerbaijani culture and language. We aim to foster a strong
+          sense of community identity by celebrating our rich heritage and creating opportunities for our community to
+          connect, learn, and share traditions. We organize cultural events to showcase our traditions, fostering unity
+          and shared identity. Our initiatives promote inclusivity, aiming to create a vibrant environment where our
+          people can flourish. We strive to build bridges between our community and the wider community, fostering
+          mutual understanding and respect for cultural diversity.
+        </p>
+      </section>
+
+      <section id="vision" class="section container card">
+        <h2>Our Vision</h2>
+        <p>
+          We envision a Washington State where Azerbaijani culture and language are not only preserved, but also
+          cherished and celebrated. We aim to foster a community filled with pride in our heritage, where our
+          traditions are passed down through generations. Our goal is to lead in supporting individuals in preserving
+          their unique cultural identity, and to promote intercultural understanding and appreciation among all
+          communities in Washington State. Ultimately, we aspire for a diverse and inclusive society that values and
+          respects all cultural heritages, ensuring Azerbaijani culture thrives as part of Washington’s multicultural
+          fabric.
+        </p>
+      </section>
+
+      <section id="events" class="section container">
+        <h2>Upcoming Events</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Nowruz Celebration</h3>
+            <p><strong>Date:</strong> March 23</p>
+            <p>Community gathering with music, traditional food, and family activities.</p>
+          </article>
+          <article class="card">
+            <h3>Community Picnic</h3>
+            <p><strong>Date:</strong> July 14</p>
+            <p>A summer social for families with games, cultural performances, and networking.</p>
+          </article>
+          <article class="card">
+            <h3>Youth Leadership Workshop</h3>
+            <p><strong>Date:</strong> September 7</p>
+            <p>Mentorship and leadership development session for students and young professionals.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="activities" class="section container card">
+        <h2>Cultural Activities</h2>
+        <p>
+          AWSA hosts language circles, music and dance sessions, cooking classes, poetry evenings, and heritage talks.
+          We welcome everyone interested in learning about Azerbaijani culture.
+        </p>
+      </section>
+
+      <section id="news" class="section container">
+        <div class="section-heading">
+          <h2>Community News & Activity Board</h2>
+          <p>Community updates are published by AWSA admins.</p>
+        </div>
+
+        <div id="news-list" class="news-list" aria-live="polite"></div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="section-heading">
+          <h2>Contact Us</h2>
+          <p>
+            Reach the AWSA team anytime at
+            <a href="mailto:info@azerbaijaniswa.org">info@azerbaijaniswa.org</a>.
+          </p>
+        </div>
+
+        <form id="contact-form" class="card form" aria-label="Send message to AWSA">
+          <label for="sender-name">Your Name</label>
+          <input type="text" id="sender-name" required maxlength="80" placeholder="Your full name" />
+
+          <label for="sender-email">Your Email</label>
+          <input type="email" id="sender-email" required maxlength="120" placeholder="you@example.com" />
+
+          <label for="contact-subject">Subject</label>
+          <input type="text" id="contact-subject" required maxlength="120" placeholder="How can we help?" />
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" required maxlength="1200" rows="6" placeholder="Write your message..."></textarea>
+
+          <button class="button" type="submit">Send Email</button>
+          <p class="form-note">Submitting opens your email app addressed to info@azerbaijaniswa.org.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> AWSA — Association of Washington State Azerbaijanis</p>
+        <div class="footer-links">
+          <a href="https://www.zeffy.com/en-US/donation-form/adc25e00-91bf-4a93-b7cb-a0a26a011471" target="_blank" rel="noopener noreferrer">Support AWSA</a>
+          <a href="admin.html">Admin News Page</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
