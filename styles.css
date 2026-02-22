@@ -27,7 +27,8 @@ body {
 
 .site-header {
   background-image:
-    linear-gradient(125deg, rgba(13, 47, 86, 0.88), rgba(23, 74, 132, 0.86)),
+    linear-gradient(125deg, rgba(15, 26, 44, 0.76), rgba(63, 28, 10, 0.72)),
+    url("header-baku.svg"),
     url("https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1800&q=80");
   background-size: cover;
   background-position: center;
@@ -200,3 +201,67 @@ textarea {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.28);
+  background: #fff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.3rem 0.55rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  right: 0;
+  min-width: 190px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  padding: 0.45rem;
+  display: none;
+  z-index: 10;
+}
+
+.dropdown-menu a {
+  display: block;
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.4rem 0.45rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.dropdown-menu a:hover {
+  background: #eef4ff;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+  display: block;
+}
+
+
