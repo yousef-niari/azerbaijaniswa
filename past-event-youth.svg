@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#eef1fa"/>
+  <rect x="120" y="120" width="660" height="300" rx="16" fill="#ffffff" stroke="#5d77b5" stroke-width="8"/>
+  <rect x="190" y="185" width="220" height="18" fill="#8ea5dd"/>
+  <rect x="190" y="225" width="430" height="14" fill="#c3d0f1"/>
+  <rect x="190" y="255" width="430" height="14" fill="#c3d0f1"/>
+  <rect x="190" y="285" width="320" height="14" fill="#c3d0f1"/>
+  <circle cx="680" cy="250" r="52" fill="#f3bf57"/>
+  <text x="450" y="90" text-anchor="middle" font-family="Arial" font-size="40" fill="#2b3f70">Youth Workshop</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#d8eefc"/>
+  <rect y="300" width="900" height="200" fill="#7cbc62"/>
+  <rect x="280" y="220" width="340" height="120" fill="#ffffff" stroke="#cc2f4a" stroke-width="8"/>
+  <g stroke="#cc2f4a" stroke-width="6"><line x1="280" y1="250" x2="620" y2="250"/><line x1="280" y1="280" x2="620" y2="280"/></g>
+  <circle cx="160" cy="160" r="40" fill="#ffcf66"/>
+  <circle cx="760" cy="150" r="55" fill="#88c8ff"/>
+  <text x="450" y="90" text-anchor="middle" font-family="Arial" font-size="40" fill="#1d3f67">Community Picnic</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="#f3e8d2"/>
+  <circle cx="140" cy="110" r="45" fill="#ffd36d"/>
+  <rect y="350" width="900" height="150" fill="#9ed08d"/>
+  <g fill="#4477aa"><circle cx="220" cy="270" r="40"/><circle cx="360" cy="250" r="40"/><circle cx="500" cy="275" r="40"/></g>
+  <rect x="620" y="230" width="200" height="120" fill="#cc7a3a"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Arial" font-size="42" fill="#5b2f0f">Nowruz</text>
+</svg>
